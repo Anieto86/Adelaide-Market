@@ -1,0 +1,28 @@
+
+.portal{
+ opacity: 0.9;
+}
+
+.cardP{
+   margin: 60px;
+   height: 350px;
+   border-style: solid;
+   border-color: white;
+   color: white;
+   background-color:black;
+   border-radius: 8px 8px  8px 8px;
+   float: left;
+ 
+}
+
+
+.btnCadP{
+   color: white;
+   border-style: solid;
+   border-color: white;
+}
+
+.btnCadPa{
+   color: white;
+ 
+}

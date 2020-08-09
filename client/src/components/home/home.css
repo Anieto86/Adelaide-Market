@@ -1,0 +1,24 @@
+.jumbotron-fluid{
+
+ background: url(../img/cherry-tomatoes2.jpg);
+ background-position: center center;
+ background-repeat: no-repeat;
+ background-size: 100%;
+ position: relative;
+ padding: 10%;
+ box-shadow: 0 0 8px 8px rgb(0, 0, 0) inset;
+}
+
+
+.text{
+    color: white;
+    background-color:rgba(0, 0, 0, 0.544);
+    padding: 0px;
+    font-family: 'Playball', cursive;
+    font-size:50px;
+    display:flex;
+    justify-content:center;
+    width: 60%;
+    margin-left: 20%;
+    
+}

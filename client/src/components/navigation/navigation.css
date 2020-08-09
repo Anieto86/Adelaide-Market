@@ -1,0 +1,42 @@
+.navbar{
+    background-color: rgba(64, 64, 64, 0.741);
+    height: 120px;
+    background-size: 1550px 550px ;
+    border-bottom: solid;
+    border-color: rgb(255, 255, 255);
+    padding: 5%;
+}
+
+.navbar-collapse {
+    display:flex;
+}
+
+.logoNav{
+    height:120px;
+    margin-bottom: 15px;
+}
+
+.catalogue , .farmer{
+    font-size: 20px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

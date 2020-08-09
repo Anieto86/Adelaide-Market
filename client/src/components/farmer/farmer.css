@@ -1,0 +1,33 @@
+
+.busquedaFarmer{
+padding: 30px;
+
+}
+
+.inputFamer{
+    width: 400px;
+    height: 50px;
+    float: right;
+}
+
+.Farmers{
+    background-color:rgba(253, 253, 253, 0.353);
+}
+
+.rowFamer{
+    color: white;
+    border-bottom-style: solid;
+    margin-top: 20px;
+    padding: 30px;
+    background-color:rgba(8, 8, 8, 0.809);
+}
+
+
+.imgFarmer{
+    width: 20%; 
+    height: 20%;
+   margin-block-end:2%;
+   background-color:rgba(0, 0, 0, 0.544);
+
+  
+}

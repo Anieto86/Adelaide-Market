@@ -1,0 +1,27 @@
+.basket{
+    
+    border-style: solid;
+    border-color: rgb(95, 187, 42);
+    color:white;
+    width: 15%;
+    margin-right:5%;
+    margin-top:8.5%;
+    float:right;
+    margin-bottom: 8%;
+    border-radius: 8px 8px  8px 8px;
+    background-color: black;
+    
+   
+   
+}
+
+
+.deleted-btn{
+    margin:5px;
+    margin-left:5px;
+   
+}
+
+.checkout-btn{
+    margin:10px;
+}

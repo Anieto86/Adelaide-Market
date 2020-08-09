@@ -1,0 +1,36 @@
+
+.bigpie{
+    border-top-style: solid;
+    border-color:white;
+    color:white;
+    display:flex;
+    background-image: url("../img/varias-especias2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 0.9;
+    width: 100%;
+    
+}
+
+.pieicon{
+    margin:30px;
+}
+
+.logoFooter{
+    height:100px;
+    margin-bottom: 35px;
+}
+
+.linkfAl{
+    display:flex;
+    justify-content: center;
+    background-color:rgba(0, 0, 0, 0.245);
+    font-size: 20px;
+}
+
+.pieiconAl{
+    margin: 10px;
+    margin-bottom:40px; 
+} 
+
+
