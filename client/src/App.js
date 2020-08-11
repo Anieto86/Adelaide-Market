@@ -14,10 +14,7 @@ import Farmer from './components/farmer/farmer';
 import Catalogue from './components/catalogue/catalogue';
 import Basket from './components/basket/basket';
 import Footer from './components/footer/footer';
-
-//Import Redux
-import {Provider , connect} from "react-redux"
-
+import Contact from './components/contact/contact';
 
 
 //Import Img in Portal
@@ -87,7 +84,7 @@ export default class App extends Component {
   render() {
    
     return (
-      <Provider store = {store}>
+     
       <div>
         <Router>
           <div className="App">
@@ -119,9 +116,12 @@ export default class App extends Component {
               <Farmer />
             </Route>
 
+            <Route path="/Contact">
+              <Contact />
+            </Route>
+
             <Route path="/catalogue">
               <Basket cartItems={this.state.cartItems} handleRemoveFromCart={this.handleRemoveFromCart} />
-
               <Catalogue products={this.state.filteredProducts} handleAddToCard={this.handleAddToCard} />
             </Route>
 
@@ -129,7 +129,6 @@ export default class App extends Component {
           </div>
         </Router>
       </div>
-      </Provider>
     )
   }
 }

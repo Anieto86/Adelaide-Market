@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 
 //stylesheets
 import "./farmer.css";
@@ -48,12 +49,18 @@ export default class Farmer extends Component {
     render() {
         return (
             <div className="container busquedaFarmer">
+                <div className="container botones">
                 <div className="btn-group  " role="group" aria-label="Basic example">
                     <button type="button" className="btn btn-secondary" onClick={this.filterVegetables} >Fruit & Vegetables</button>
                     <button type="button" className="btn btn-secondary" onClick={this.filterCheese}>Cheese</button>
                     <button type="button" className="btn btn-secondary" onClick={this.filterBakery}>Bakery</button>
                     <button type="button" className="btn btn-secondary" onClick={this.filterMeat}>Meat</button>
                 </div>
+                <Link className="nav-link" to="/contact">
+                <button className="btn btn-secondary contact-btn" type="button">Stallholders Contact</button>
+                </Link>
+                </div>
+                
                 <div className="container Farmers">
                     <div className="row row-cols-5 rowFamer">
                         <div className="col">Producers & Farmers</div>
@@ -71,6 +78,7 @@ export default class Farmer extends Component {
                             <div className="col">{farmers.category}</div>
                         </div>
                     ))}
+                  
                     <br />
                 </div>
             </div>

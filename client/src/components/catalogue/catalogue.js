@@ -36,7 +36,7 @@ export default class Catalogue extends Component {
         </div>
         <br />
 
-        <div className="container">
+        <div className="container card-group">
           {seacrhProducts.map(products => (
             <div className=" cardC" style={{ width: "13rem" }} key={products._id}>
               <img src={products.imagePath} className="card-img-top" alt="imgeProduct" />

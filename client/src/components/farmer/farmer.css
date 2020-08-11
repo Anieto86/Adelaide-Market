@@ -12,7 +12,18 @@ padding: 30px;
 
 .Farmers{
     background-color:rgba(253, 253, 253, 0.353);
+    margin-bottom: 25%;
 }
+
+.contact-btn{
+    border-style: solid;
+    border-color:white;
+}
+.botones{
+    display: flex;
+    justify-content: space-between;
+}
+
 
 .rowFamer{
     color: white;

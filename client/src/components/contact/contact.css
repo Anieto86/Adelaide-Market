@@ -1,0 +1,20 @@
+.contact{
+    color:white;
+    font-family: 'Playball', cursive;
+    font-size:20px;
+}
+
+
+.contact-txt{
+    color:white;
+    font-family: 'Playball', cursive;
+    font-size:50px;
+}
+
+
+.submit{
+    margin-bottom:24%;
+    padding:2%;
+    border-style: solidcd;
+    border-color: white;
+}

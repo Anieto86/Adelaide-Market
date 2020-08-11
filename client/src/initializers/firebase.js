@@ -1,10 +1,10 @@
 
 // ! Fiberabe API for Autetication
-import firebase from 'firebase';
-// import 'firebase/auth';
-// import 'firebase/firestore';
+import * as firebase from 'firebase/app';
+import 'firebase/auth';
+import 'firebase/firestore';
 
-const firebaseConfig = {
+firebase.initializeApp({
     apiKey: "AIzaSyDdGuh1BbuBBiscemWLAx9oswDyIiDwu0c",
     authDomain: "adelaide-e-market.firebaseapp.com",
     databaseURL: "https://adelaide-e-market.firebaseio.com",
@@ -13,11 +13,12 @@ const firebaseConfig = {
     messagingSenderId: "968594630104",
     appId: "1:968594630104:web:6b86fc27583a86d5663ead",
     measurementId: "G-GVBTFGN6D5"  
-};
+});
 
 
 // Initialize Firebase
-firebase.initializeApp(firebaseConfig);
-firebase.analytics();
+const db = firebase.firestore();
+const fireAuth = firebase.auth();
 
-export default firebase;
+export {db , fireAuth};
+

@@ -11,7 +11,12 @@
     border-top-style: solid;
     border-color:white;
     margin: 20px;
+    
    
+}
+
+.card-group{
+    margin-bottom: 25%;
 }
 
 .btn-group{

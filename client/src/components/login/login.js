@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import firebase from '../../initializers/firebase';
+import * as fireAuth from 'firebase/app'; import 'firebase/auth';
+
+// import {} from '../../initializers/firebase';
 
 
 //icons
@@ -18,9 +20,10 @@ export default class Login extends Component {
   }
 
   login() {
-    let provider = new firebase.auth.GoogleAuthProvider();
-    firebase.auth().signInWithPopup(provider).then(result => {
-      console.log(result);
+    const provider = new fireAuth.auth.GoogleAuthProvider();
+   
+    fireAuth.auth().signInWithPopup(provider).then(result => {
+      console.log(provider);
     })
   }
   render() {

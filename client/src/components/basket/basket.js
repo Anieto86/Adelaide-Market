@@ -30,10 +30,7 @@ export default class Basket extends Component {
                         <b>
                             Total:{cartItems.reduce((a, c) => a + c.price * c.count, 0)}
                         </b>
-                        <br/>
-                        <button className="btn btn-primary checkout-btn"
-                            onClick={() => alert('Checkout needs to implement...')}>Checkout
-                        </button>
+                    
                     </div>
                 )}
             </div>
