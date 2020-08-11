@@ -18,20 +18,14 @@ if (process.env.NODE_ENV === "production") {
 }
 
 
-//! Add routes for API 
+//! Add routes for API
 //method use is for use another logic || works for generated the Router
 
-// //Cart routes
-// app.use(require("./routes/api/carts"))
-//Farmers routes
+
 app.use(require("./routes/api/farmers"));
-// Orders routes
-// app.use(require("./routes/api/orders"))
-//Products routes
+
 app.use(require("./routes/api/products")); 
 
-//Users routes
-// app.use(require("./routes/api/users"));
 
 
 
