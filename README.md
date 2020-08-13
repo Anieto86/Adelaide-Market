@@ -8,6 +8,9 @@
 
 #MongoDB - Express -Node.js - REACT  | MERN app | Firebase 
 
+presentation: https://docs.google.com/presentation/d/1DKbRJEJM0f4OJUZaJtL6VwpJQxIouoSCnlR3aYhj2kc/edit?usp=sharing
+
+
  
 #ScreenShots
  
@@ -18,19 +21,26 @@
 ![contact](https://user-images.githubusercontent.com/60838509/90091459-96396280-dd65-11ea-8151-46b62644a26b.PNG)
 
 
-presentation: https://docs.google.com/presentation/d/1DKbRJEJM0f4OJUZaJtL6VwpJQxIouoSCnlR3aYhj2kc/edit?usp=sharing
-
-
-#This is the Final project where develped and APP using MERN + Firebase autentication and deploy with heroku. 
 
 #Coding Requirementes
+
 ##Must use REACT.JS.
+
 ##Must use Node and Ecpress Web Server
+
 ##Muest Have GET and POST routes for retrieving and adding new data
+
 ##Must be deployed using Heroku (with data)
+
 ##Must utilize at least teo libraries, packages , ort thechnologies.
+
 ##Must allow for or involve the authentication of users 
+
 ##Polished fronted/UI
+
 ##MVC folder structure
+
 ##Good quality of coding standards
+
 ##No expose sensitive API key information on the server. 
+
