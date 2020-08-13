@@ -3,8 +3,10 @@
 
 
 ##Adelaide Market is a platform to add new services in local market communities and to  support local economies, the green economies and promote local trade
+
 ##Back End and Front End | Individual Project. 
-#MongoDB - Express -Node.js - REACT  | MERN app
+
+#MongoDB - Express -Node.js - REACT  | MERN app | Firebase 
 
  
 #ScreenShots
